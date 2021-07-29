@@ -1,0 +1,133 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-weight: 600px;
+}
+/* Top section  */
+.top-banner{
+    width: 100%;
+    color: white;
+    background-color:#264653;
+    margin-bottom: 64px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-color: #E76F51;
+    width: 168px;
+    height: 44px;
+    padding: 10px;
+    border: none;
+}
+
+
+.gray-highlight{
+    font-size: 16px;
+    color:#E0E0E0;
+}
+.modal-content{
+    color: black;
+}
+
+
+
+/* Fetured bike section  */
+.fetured-title{
+    margin-bottom: 100px;
+}
+.featured-images{
+    filter: grayscale(100%);
+}
+.orange-highlight{
+    color: #E76F51;
+}
+
+
+/* Client Section  */
+.client{
+    margin-bottom: 100px;
+}
+.client-title{
+    margin-bottom: 52px;
+}
+.orange-highlight{
+    color: #E76F51;
+}
+
+.client-card{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 35px;
+}
+.client-card img{
+    border-radius: 50%;
+    width: 149px;
+    height: 149px;
+}
+.stars{
+    color: orange;
+    margin-bottom: 15px;
+}
+.name{
+    color: blue;
+}
+
+/* faq section  */
+.img-fluid{
+    width: 431.2px;
+    height: 423.5px;
+}
+
+
+/* Bike Sell section  */
+
+.section-title{
+    margin-bottom: 47px;
+}
+.latest-bike{
+    margin-bottom: 160px;
+}
+
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+
+/* Subscribe  */
+
+#subscribe{
+    height: 300px;
+    margin-bottom: 200px;
+}
+
+#subscribe h6{
+    color: gray;
+}
+
+.pink-bg{
+    background-color: rgb(212, 195, 186);
+}
+
+
+/*-------------------------------------- media query------------------------------  */
+
+/* -----------mobile  ----------*/
+
+
+@media only screen and (max-width:688px) {
+    .top-banner{
+        flex-direction: column;
+    }
+    .top-banner img{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .top-blog{
+        padding-top: 60px;
+        text-align: center;
+    }
+}
+
+
